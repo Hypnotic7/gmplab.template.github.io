@@ -10,6 +10,9 @@ import Contact from './components/contact/contact';
 
 //CSS
 import './App.css';
+import './animation/animate.css';
+import './animation/hover.css'
+
 
 const initialState = {
     route: 'home',

@@ -7,9 +7,8 @@ const AboutUs = () => {
                 <legend style={{paddingTop: "50px"}}
                         className="mt-2 f1 fw6 ph0 mh0">
                         O nas
-                </legend> 
-
-                 <div className="pt4 flex flex-wrap">
+                </legend>
+                <div className="pt4 flex flex-wrap">
                 <div className="center pt4">
                     <Logo />  
                     </div>                            
