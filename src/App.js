@@ -1,18 +1,43 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+//COMPONENTS
+import Navigation from './components/navigation/navigation';
+import Slider from './components/slider/Slider';
+import News from './components/news/news';
+import AboutUs from './components/aboutUs/aboutUs';
+
+//CSS
 import './App.css';
 
+const initialState = {
+    route: 'home',
+    isOpen: false
+}
+
 class App extends Component {
+
+    constructor() {
+    super();
+    this.state = initialState;
+  }
+
+  onRouteChange = (route) => {
+    // if(route === 'home'){
+
+    // }
+    this.setState({route: route});
+  }
+
   render() {
+    const {route} = this.state;
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Navigation />
+        <Slider />
+        <News />
+        <AboutUs/>
+
       </div>
     );
   }
