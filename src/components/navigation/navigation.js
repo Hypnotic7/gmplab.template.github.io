@@ -4,6 +4,9 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 //COMPONENTS
 import SearchBox from '../searchBox/SearchBox';
 import Languages from '../languages/languages';
+import Logo from '../logo/logo';
+
+import LogoImg from '../../images/LogoNoTitle.png'
 
 //CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -31,7 +34,8 @@ class Navigation extends React.Component {
       <div>
         <Navbar className="navbar-dark" color="dark" light>
         <Languages /> 
-          <SearchBox />
+        <img style={{ height: 50, width: 75 }} alt='logo' src={LogoImg}/>  
+          {/* <SearchBox /> */}
           <NavbarToggler className="ml-2" onClick={this.toggleNavbar} />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>

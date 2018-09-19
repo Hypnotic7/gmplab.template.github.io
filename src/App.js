@@ -5,6 +5,8 @@ import Navigation from './components/navigation/navigation';
 import Slider from './components/slider/Slider';
 import News from './components/news/news';
 import AboutUs from './components/aboutUs/aboutUs';
+import Contact from './components/contact/contact';
+
 
 //CSS
 import './App.css';
@@ -37,6 +39,7 @@ class App extends Component {
         <Slider />
         <News />
         <AboutUs/>
+        <Contact/>
 
       </div>
     );

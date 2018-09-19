@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../logo/logo';
+import image from '../../images/blue.jpg';
 const AboutUs = () => {
     return (
         <div >
@@ -7,18 +8,27 @@ const AboutUs = () => {
                         className="mt-2 f1 fw6 ph0 mh0">
                         O nas
                 </legend> 
-                <div className="pt4 flex flex-wrap"> 
-                    <div >
-                    <Logo />
-                        </div>                   
-                    
-                     <div >
-                     <label style= {{paddingTop: "15px"}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt turpis et nulla vulputate tempor. Praesent felis nulla, ultricies ut tortor ac, lacinia ullamcorper elit. Aliquam convallis consequat turpis eget vehicula. Nullam dictum urna ac purus volutpat, vel accumsan arcu ultrices. Etiam nec sodales ante, quis tincidunt nisi. Curabitur dapibus diam at diam hendrerit euismod. Donec ut aliquet lacus. Cras viverra sagittis felis. Pellentesque id nibh et ex bibendum tincidunt eget ac leo. Proin sapien eros, vehicula in egestas nec, maximus quis urna. Aliquam eget pellentesque leo, ut malesuada urna.
-                            </label>     
-                    </div>        
-                         
+
+                 <div className="pt4 flex flex-wrap">
+                <div className="center pt4">
+                    <Logo />  
+                    </div>                            
+                     <div className="center pt4">
+                    <div className="br3 ba b--black-10  w-100 w-100-m w-25-l mw6 shadow-5">
+                    <main className="pa4 black-80">                                       
+                            <label style= {{paddingTop: "15px"}}>
+                            GMP LAB s.c. powstała w sierpniu 2018 roku jako odpowiedź na rosnące zapotrzebowanie na specjalistyczne meble do laboratoriów chemicznych i szybko stała się wypełnieniem niszy w tej branży na rynku polskim. Misją firmy GMP LAB jest tworzenie mebli i akcesoriów laboratoryjnych na wymiar, pod konkretne, często nietypowe zastosowania. Pracujemy ze wszystkimi tworzywami sztucznymi, aluminium, stalą, laminatami - są to materiały najwyższej jakości od sprawdzonych dostawców. Nasze produkty w wysokim stopniu wyciszają pracę urządzeń laboratoryjnych, chłodząc je od środka za pomocą wentylatorów. Cechuje nas olbrzymia elastyczność - każdy Klient to dla nas osobne wyzwanie, które realizujemy pod jego dyktando dostarczając gotowy produkt w krótkim czasie. Współpracujemy ze znanymi na rynku chemicznymi laboratoriami oraz największymi na rynku producentami sprzętu laboratoryjnego. Polecamy siebie i nasze produkty! GMP LAB M.Kochanowska, M.Piskorz, P.Iwanek s.c.
+                            </label>             
+                    </main>
+                    </div>                    
+            </div>          
+                 
+                </div> 
+                <div className="mt5">
+                    <hr />
                 </div>
+                
+             
         </div>
     );
 }

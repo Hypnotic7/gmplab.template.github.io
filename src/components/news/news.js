@@ -15,7 +15,9 @@ const News = () => {
                     <Feed />
                     <Feed />
                 </div> 
-                <hr />                        
+                <div className="mt5">
+                    <hr />
+                </div>                        
             </header>
         </div>
     );
