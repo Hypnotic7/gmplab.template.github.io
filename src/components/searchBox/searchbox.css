@@ -1,4 +1,4 @@
-.search {
+.searchBox {
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -29,7 +29,7 @@
     transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
   }
   
-.search:hover {
+.searchBox:hover {
     color: rgba(181,181,181,1);
     background: rgba(0,0,0,0.4);
     -webkit-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
@@ -38,7 +38,7 @@
     transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
   }
 
-.search:focus {
+.searchBox:focus {
     width: 213px;
     cursor: default;
     padding: -13px 20px 0;

@@ -6,12 +6,14 @@ import Slider from './components/slider/Slider';
 import News from './components/news/news';
 import AboutUs from './components/aboutUs/aboutUs';
 import Contact from './components/contact/contact';
+import Product from './components/products/products';
 
 
 //CSS
 import './App.css';
 import './animation/animate.css';
-import './animation/hover.css'
+import './animation/hover.css';
+import 'semantic-ui-css/semantic.min.css';
 
 
 const initialState = {
@@ -42,6 +44,7 @@ class App extends Component {
         <Slider />
         <News />
         <AboutUs/>
+        <Product />
         <Contact/>
 
       </div>
