@@ -4,7 +4,7 @@ import ProductCard from './productCard';
 import DropdownSearchSelection from '../dropdown/dropdown';
 import './products.css';
 
-import ColorDivider from '../../images/relia_sol_divider.svg'
+import ColorDivider from '../../images/relia_sol_divider.png'
 
 const companiesOptions = [ 
     { key: '1', value: 'AL', text: 'shimadzu' },

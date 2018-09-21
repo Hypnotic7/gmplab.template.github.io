@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../logo/logo';
 import image from '../../images/blue.jpg';
 
-import ColorDivider from '../../images/relia_sol_divider.svg'
+import ColorDivider from '../../images/relia_sol_divider.png'
 import { Divider } from 'semantic-ui-react';
 
 // import './aboutUs.css';

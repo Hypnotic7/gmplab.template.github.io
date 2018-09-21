@@ -3,7 +3,7 @@ import React from 'react';
 import Feed from '../feed/feed';
 import { Divider } from 'semantic-ui-react';
 
-import ColorDivider from '../../images/relia_sol_divider.svg'
+import ColorDivider from '../../images/relia_sol_divider.png'
 import './news.css';
 const News = () => {
     return (

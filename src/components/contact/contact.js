@@ -5,6 +5,9 @@ import AddressIcon from '../../images/adres-icon.png';
 import TelephoneIcon from '../../images/telephone-icon.png';
 import ContactIcon from '../../images/contact-icon.png';
 
+import LogoIcon from '../../images/logox.png';
+import Logo2Icon from '../../images/shim-pol.png';
+
 import './contact.css';
 
 const Contact = () => {
@@ -63,7 +66,7 @@ const Contact = () => {
                                     <ul>Marcin Piskorz +48 604 35 75 88</ul>
                                     <ul>Piotr Iwanek +48 601 76 54 32 </ul>                                     
                                 </div>
-                            </div>                   
+                            </div>                  
                             
                         </div>                            
                         </div> 
@@ -79,14 +82,29 @@ const Contact = () => {
                                     <ul>piotr@gmplab.pl</ul>                                   
                             </div>
                         </div>
-                        </div>
-                                               
-                    </div> 
-                </div>                
-                <div className="">
-
-                </div>
+                        </div>                                               
+                    </div>                    
+                </div>                              
             </div>
+            <div className="mt2 bg-black" id="foot">
+                <div className="pt2">
+                    <div className="flex flex-wrap">
+                        <div className="pt2 center">
+                            <img style={{ height: 60, width: 75 }} alt='logo' src={LogoIcon}/> 
+                        </div>
+                        <div className="pt3 center">
+                           <p className="f2 lh-copy b">GMP LAB</p>
+                        </div>
+                        <div className="pt3 center">
+                            <img style={{ height: 50, width: 75 }} alt='logo' src={Logo2Icon}/> 
+                        </div>
+                    </div>                  
+                </div>
+                <div className="pt3">
+                    
+                </div>
+                    
+                </div>  
         </footer>
         
     );
