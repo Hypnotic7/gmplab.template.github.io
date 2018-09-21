@@ -10,11 +10,11 @@ const Slider = () => {
     return (      
         <div className="mt0 center">           
             <AwesomeSlider>
-                <div className="w-100 h-100" style={{backgroundColor:'#364859'}}>
+                <div className="mt-3 w-100 h-100" style={{backgroundColor:'#364859'}}>
                     <div>
-                        <caption className="f3 lh-copy center white">
+                        <p className="f3 lh-copy center white pb2">
                             Nagłówek
-                        </caption>
+                        </p>
                     </div>
                    <div>
                      <img alt='image-slider-1' src={image} className="w-100 h-100" text="HELLO"/>
