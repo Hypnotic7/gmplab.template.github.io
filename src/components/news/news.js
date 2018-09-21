@@ -1,24 +1,27 @@
 import React from 'react';
 
 import Feed from '../feed/feed';
+import { Divider } from 'semantic-ui-react';
 
+import ColorDivider from '../../images/relia_sol_divider.svg'
+import './news.css';
 const News = () => {
     return (
-        <div id="">
-            <header>
-            <legend style={{paddingTop: "50px"}}
-                        className="mt-2 f1 fw6 ph0 mh0">
+        <div id="news">
+        
+            <h1 style={{paddingTop: "40px"}}
+                        className="mt-2 f1 lh-title ph0 mh0 mb0">
                         Aktualności
-                </legend>                 
+            </h1>  
+            <img className="mt2" src={ColorDivider} alt="Reliability-Solutions" style={{maxWidth:100, maxHeight:100}}/>      
                 <div className="pt4 flex flex-wrap">
-                    <Feed />
-                    <Feed />
-                    <Feed />
+                    <Feed id="feed"/>
+                    <Feed id="feed"/>
+                    <Feed id="feed"/>
                 </div> 
                 <div className="mt5">
-                    <hr />
                 </div>                        
-            </header>
+            
         </div>
     );
 }
