@@ -13,7 +13,7 @@ const News = () => {
                         className="mt-2 f1 lh-title ph0 mh0 mb0">
                         Aktualności
             </h1>  
-            <img className="mt2" src={ColorDivider} alt="Reliability-Solutions" style={{maxWidth:100, maxHeight:100}}/>      
+            <img className="mt2 grow" src={ColorDivider} alt="Reliability-Solutions" style={{maxWidth:100, maxHeight:100}}/>      
                 <div className="pt4 flex flex-wrap">
                     <Feed id="feed"/>
                     <Feed id="feed"/>

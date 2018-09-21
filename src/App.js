@@ -8,6 +8,7 @@ import AboutUs from './components/aboutUs/aboutUs';
 import Contact from './components/contact/contact';
 import Product from './components/products/products';
 import FormModal from './components/modal/formModal';
+import Offer from './components/offer/offer';
 
 
 //CSS
@@ -46,7 +47,9 @@ class App extends Component {
         
         <News />
         <AboutUs/>
+        <Offer/>
         <Product />
+        
         {/* <FormModal/> */}
         <Contact/>
 

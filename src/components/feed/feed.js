@@ -6,7 +6,7 @@ const Feed = () => {
             <div className="center pt3" >
                     <div className="br3 ba b--black-10  w-100 w-100-m w-25-l mw6 shadow-5" >
                     <main className="pa4 black-80">                                       
-                            <div className="w-100 h-100">
+                            <div className="tc w-100 h-100 animated infinite hvr-grow">
                                 <img  alt='image-slider-1' src={image} className="w-100 h-100"/>
                             </div>
                             <p 

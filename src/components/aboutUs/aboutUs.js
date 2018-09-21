@@ -9,7 +9,8 @@ import { Divider } from 'semantic-ui-react';
 const AboutUs = () => {
     return (
         <div id="aboutUs">
-        <Divider></Divider>
+          
+        <Divider />
                 <legend style={{paddingTop: "50px"}}
                         className="mt-2 f1 fw6 ph0 ">
                         O nas

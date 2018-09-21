@@ -10,6 +10,7 @@ import LogoImg from '../../images/LogoNoTitle.png'
 
 //CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Divider } from 'semantic-ui-react';
 
 
 class Navigation extends React.Component {
@@ -32,7 +33,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="navbar-dark" color="dark" light>
+        <Navbar className="navbar-dark bb" color="dark" light>
         <Languages /> 
         <img style={{ height: 50, width: 75 }} alt='logo' src={LogoImg}/>  
           {/* <SearchBox /> */}
@@ -40,13 +41,16 @@ class Navigation extends React.Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/components/">Aktualności</NavLink>
+                <Divider className="center" style={{backgroundColor: '1', maxWidth: "160"}}/>
+                <NavLink className="f4 lh-cop tw" href="/components/">Aktualności</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">O Nas</NavLink>
+              <Divider className="center" style={{backgroundColor: '1', maxWidth: "160"}}/>
+                <NavLink className="f4 lh-copy" href="/components/">O Nas</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Oferta</NavLink>
+              <Divider className="center" style={{backgroundColor: '1', maxWidth: "160"}}/>
+                <NavLink className="f4 lh-copy" href="/components/" color="white" >Oferta</NavLink>
               </NavItem>
               {/* <NavItem>
                 <NavLink href="/components/">Technologie/Materialy</NavLink>
@@ -57,15 +61,18 @@ class Navigation extends React.Component {
               {/* <NavItem>
                 <NavLink href="/components/">Do pobrania</NavLink>
               </NavItem> */}
-              <NavItem>
-                <NavLink href="/components/">Kontakt</NavLink>
+              <NavItem className="">
+              <Divider className="center" style={{backgroundColor: '1', maxWidth: "160"}}/>
+                <NavLink className="f4 lh-copy" href="/components/">Kontakt</NavLink>
               </NavItem>
               {/* <NavItem>
                 <NavLink href="/components/">Kofigurator systemow wyciszen</NavLink>
               </NavItem> */}
               <NavItem>
-                <NavLink href="/components/">Wspolpraca Shim-Pol</NavLink>
+              <Divider className="center" style={{backgroundColor: '1', maxWidth: "160"}}/>
+                <NavLink className="f4 lh-copy" href="/components/">Wspolpraca Shim-Pol</NavLink>
               </NavItem>
+              
             </Nav>
           </Collapse>                 
         </Navbar>
